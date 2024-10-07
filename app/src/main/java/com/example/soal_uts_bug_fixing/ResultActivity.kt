@@ -28,14 +28,16 @@ class ResultActivity : AppCompatActivity() {
 
         with(binding){
             namaTxt.text = nama
-            identitasTxt.text = identitas
             genderTxt.text = gender
+            identitasTxt.text = identitas
             tipeTxt.text = tipe
             if(tipe=="Offline"){
                 lokasiTitle.visibility = View.VISIBLE
                 lokasiTxt.visibility = View.VISIBLE
                 lokasiTxt.text = alamat
             }
+            tanggalTxt.text = tanggal
+            waktuTxt.text = waktu
 
             backBtn.setOnClickListener(){
                 val intentToHome = Intent(this@ResultActivity, MainActivity::class.java)
