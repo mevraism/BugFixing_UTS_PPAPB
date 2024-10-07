@@ -102,7 +102,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:id="@+id/kalender_txt"
+        android:id="@+id/tombolKalender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24sp"
@@ -117,7 +117,7 @@
 
 
     <TextView
-        android:id="@+id/timer_txt"
+        android:id="@+id/tombolJam"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24sp"
@@ -131,7 +131,7 @@
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/submit_btn"
+        android:id="@+id/tombolSubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="48sp"
@@ -142,11 +142,7 @@
         android:fontFamily="@font/poppins_semibold"
         android:textColor="@color/white"/>
 
-<!--    <TimePicker-->
-<!--        android:id="@+id/timePicker"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:timePickerMode="spinner"-->
-<!--        android:layout_height="wrap_content" />-->
+
 
 
 </LinearLayout>

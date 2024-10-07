@@ -19,6 +19,9 @@ class ResultActivity : AppCompatActivity() {
 
         val tipe = intent.getStringExtra(AppointmentActivity.EXTRA_TIPE)
         val alamat = intent.getStringExtra(AppointmentActivity.EXTRA_ALAMAT)
+        val nama = intent.getStringExtra(FormActivity.EXTRA_NAMA)
+        val identitas = intent.getStringExtra(FormActivity.EXTRA_IDENTITAS)
+        val gender = intent.getStringExtra(FormActivity.EXTRA_GENDER)
         val tanggal = intent.getStringExtra(AppointmentActivity.EXTRA_TANGGAL)
         val waktu = intent.getStringExtra(AppointmentActivity.EXTRA_WAKTU)
 
